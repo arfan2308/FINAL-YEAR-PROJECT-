@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+
+.main_bg{
+    /* background-image: url(background.jpg); */
+    background-color: #fffefe;
+    /* max-width: 800px;
+    height: 450px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form{
+    margin: 20px auto;
+    background-color: #ff084e;
+    padding: 10px;
+    border-radius: 15px;
+    width: 650px;
+}
+
+.form-text{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+.form-text h1 span img{
+    color: #fff;
+    margin: 0 10px;
+
+}
+.form-text h1{
+    color: #fff;
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.form-text p{
+    color: rgb(21, 20, 20);
+    /* font-family: 'Akaya Telivigala', cursive; */
+    font-size: large;
+}
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form div input {
+    width: 100%;
+    /* font-family: 'Akaya Telivigala', cursive; */
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(11, 11, 11);
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div select{
+    width: 104%;
+    /* font-family: 'Akaya Telivigala', cursive; */
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+    outline: none;
+    padding: 3px 0 3px 10px;
+    margin-top: 10px;
+}
+.main-form div span{
+    width: 100%;
+    /* font-family: 'Akaya Telivigala', cursive; */
+    color: #fff;
+    font-size: 25px;
+}
+
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    width: 200px;
+    background-color: #fdfafb !important;
+    color: black !important;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#submit input:hover{
+    /* font-family: 'Akaya Telivigala', cursive; */
+    transform: scale(1.1);
+    border:2px solid #fff;
+    background-color: #ff084e !important;
+    color: #fff !important;
+}
+#submit input:active{
+    font-size: 19px;
+    background-color: rgb(46, 20, 5) !important;
+    color: #fff !important;
+}
+
+.jump{
+    margin-left: 245px;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width:710px) {
+    .main-form{
+        text-align: center;
+    }
+}
